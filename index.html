@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>नेपाली क्यालेन्डर</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calendar-icon" onclick="openModal()">नेपाली क्यालेन्डर</div>
+
+    <div id="calendarModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <script type="text/javascript">
+                var nc_width = 'responsive';
+                var nc_height = 650;
+                var nc_api_id = "083147p558";
+            </script>
+            <script type="text/javascript" src="https://www.ashesh.com.np/nepali-calendar/js/ncf.js?v=5"></script>
+            
+            <!-- Custom branding container -->
+            <div class="room-calendar-branding">
+                <img class="room-logo" src="https://i.postimg.cc/SQZNDPDr/room-round-logo-copy.png" alt="Room Calendar Logo" />
+                <span class="brand-text">Powered by Room Calendar</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
