@@ -1,0 +1,23 @@
+.calendar-icon {
+    cursor: pointer;
+    background-color: #1a237e;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    width: 80px;
+    min-width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 10px;
+    padding: 0 15px;
+    transition: all 0.3s ease;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+/* बाँकी सबै CSS कोड तपाईंले दिनुभएको जस्तै राख्नुहोस् */
+/* ... पूरा CSS कोड यहाँ राख्नुहोस् ... */
